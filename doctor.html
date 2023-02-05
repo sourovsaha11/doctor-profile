@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ayshatul Kobra Aivee | Doctor of Medicine</title>
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+
+        body {
+            background-image: linear-gradient(to right, #3f87a6, #ebf8e1);
+        }
+
+        header h1,
+        header h2 {
+            text-align: center;
+            margin: 0;
+
+        }
+
+        header h1 {
+            color: black;
+            font-size: 36px;
+        }
+
+        header h2 {
+            color: black;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .a {
+            color: black;
+
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        section h2 {
+            color: blue;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+
+        .services-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .service {
+            width: calc(33.33% - 20px);
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .service-icon {
+            width: 100px;
+            height: 1fr;
+            margin: 0 auto 20px;
+            animation: icon-spin 0.5s ease-in-out infinite alternate;
+        }
+
+        /* @keyframes icon-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        } */
+
+
+
+        #contact {
+            text-align: center;
+            padding: 50px;
+        }
+
+        #contact h2 {
+            margin-bottom: 40px;
+        }
+
+        #contact form {
+            display: inline-block;
+            text-align: left;
+            padding: 40px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px #ccc;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px #ccc;
+        }
+
+        .form-group textarea {
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+
+        footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 767px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            header h2 {
+                font-size: 18px;
+            }
+
+            nav a {
+                font-size: 16px;
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+        }
+
+        .footer-links a {
+            color: #fff;
+            margin-left: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dr. Ayshatul Kobra Aivee</h1>
+        <h2>Doctor of Medicine</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2 class="a">About Dr. Ayshatul Kobra Aivee</h2>
+            <p>Dr. Ayshatul Kobra Aivee is a highly qualified and experienced doctor of medicine. With years of
+                experience in the field, she has a wealth of knowledge and skills to offer her patients. Whether you
+                need routine check-ups or treatment for a specific medical condition, she is here to help you feel
+                better and improve your health. </p>
+        </section>
+
+
+        <section id="services">
+            <h2 class="a">Services offered by Dr. Ayshatul Kobra Aivee</h2>
+            <p>As a doctor of medicine, Dr. Ayshatul Kobra Aivee provides a range of medical services to her patients.
+                Below are some of the services she offers:</p>
+            <div class="services-container">
+                <div class="service">
+                    <img src="photos/pic1.jpg" alt="Check-up icon" class="service-icon">
+                    <h3>Regular Check-ups</h3>
+                    <p>Regular check-ups are an important part of maintaining good health. Dr. Ayshatul Kobra Aivee
+                        provides thorough check-ups to help catch any potential health issues early.</p>
+                </div>
+                <div class="service">
+                    <img src="photos/pic2.jpg" alt="Sick icon" class="service-icon">
+                    <h3>Treatment of Illnesses</h3>
+                    <p>Whether it's a common cold or a more serious illness, Dr. Ayshatul Kobra Aivee is here to
+                        diagnose and treat a wide range of illnesses and conditions.</p>
+                </div>
+                <div class="service">
+                    <img src="photos/pic3.jpg" alt="Medication icon" class="service-icon">
+                    <h3>Prescription of Medications</h3>
+                    <p>When necessary, Dr. Ayshatul Kobra Aivee can prescribe medications to help manage symptoms and
+                        treat underlying conditions.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact">
+            <h2 class="a">Contact Dr. Ayshatul Kobra Aivee</h2>
+            <p>For any inquiries or to schedule an appointment, please fill out the form below and we will get back to
+                you as soon as possible.</p>
+            <form action="submit-form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023 Dr. Ayshatul Kobra Aivee</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </footer>
